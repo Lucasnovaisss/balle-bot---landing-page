@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    width: 100%vh;
+    height: 100%vh;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px 0px 18px 0px;
+
+}
+
+header a {
+    text-decoration: none;
+
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-right: 35px;
+    
+    color: #FFF2E7;
+}
+
+.add-bot {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.add-bot h1 {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    
+    color: #FFF2E7;
+}
+
+.add-bot p {
+    font-family: 'Sarala';
+    color: #ECD6C4;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    margin-top: 30px;
+}
+
+.line_2 {
+    width: 17.253rem;
+}
+
+.line_3 {
+    margin-top: 85px;
+    margin-bottom: 31px;
+}
+
+section {
+    margin-right: 258px;
+    margin-top: 94px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+article h2 {
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 74px;
+    margin-bottom: 31px;
+
+    color: #FFF2E7;
+}
+
+ol {
+    list-style: none;
+}
+
+ article ol li {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 50px;
+    color: #ECD6C4;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color: #FFF2E7;
+}
+
+.btn {
+    border: none;
+    width: 185px;
+    height: 60px;
+    margin-top: 40px;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #2F2325;
+}
+
+figure img {
+    margin-bottom: 31px;
+}
+
+.btn:hover {
+    background: #8E5D52;
+    color: #ECD6C4;
+}
